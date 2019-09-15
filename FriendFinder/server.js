@@ -5,7 +5,7 @@ var path = require("path");
 
 //Setting up an express APP
 var app = express();
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 
 //Data parsing for Express App
 app.use(express.urlencoded({ extended: true }));
