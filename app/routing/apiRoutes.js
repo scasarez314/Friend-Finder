@@ -1,5 +1,5 @@
-var express = require("./node_modules/express");
-var ffUserData = require("../Data/friends");
+var express = require("express");
+var ffUserData = require("../data/friends");
 
 //Routing 
 module.exports = function (app) {
